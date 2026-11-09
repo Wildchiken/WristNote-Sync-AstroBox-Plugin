@@ -1,0 +1,19 @@
+{
+    "name": "腕记同步",
+    "icon": "icon.png",
+    "version": "0.1.0",
+    "description": "读取、复制、导出手环上「腕记」的记事，也能把手机上写好的文字发到手环。",
+    "author": "Wildchiken",
+    "website": "https://github.com/Wildchiken/WristNote-Sync-AstroBox-Plugin",
+    "entry": "wristnote_sync.wasm",
+    "wasi_version": 2,
+    "api_level": 3,
+    "permissions": [
+        "device",
+        "interconnect",
+        "register_interconnect_recv",
+        "thirdpartyapp",
+        "clipboard.write"
+    ],
+    "additional_files": []
+}
